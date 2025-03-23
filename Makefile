@@ -6,7 +6,7 @@
 #    By: throbert <throbert@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/03/07 19:09:36 by throbert          #+#    #+#              #
-#    Updated: 2025/03/23 15:57:08 by throbert         ###   ########.fr        #
+#    Updated: 2025/03/23 16:24:05 by throbert         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -37,6 +37,7 @@ SRCS = $(wildcard $(SRC_DIR)/*.c) \
 	   $(wildcard $(SRC_DIR)/draw/*.c) \
 	   $(wildcard $(SRC_DIR)/events/*.c) \
 	   $(wildcard $(SRC_DIR)/parse/*.c) \
+	   $(wildcard $(GNL_DIR)/*.c)
 
 OBJS = $(SRCS:%.c=$(OBJ_DIR)/%.o)
 
@@ -98,7 +99,7 @@ $(OBJ_DIR)/%.o: %.c
 # =====================
 # === COMPILATION ====
 # =====================
-$(NAME): $(OBJS)
+$(NAME): $(OBJS) $(LIBFT)
 	@echo "$(YELLOW)Création de l'exécutable $(NAME)...$(RESET)"
 	@$(CC) $(OBJS) -o $(NAME) -L$(LIBFT_DIR) -lft -L$(MLX_DIR) -lmlx -lX11 -lXext -lm
 	@echo "$(GREEN)Compilation de $(NAME) terminée avec succès !$(RESET)"
@@ -135,11 +136,11 @@ fclean: clean
 	@echo "$(GREEN)Nettoyage complet terminé !$(RESET)"
 
 # ====================
-# === REBUILD ===
+# === REBUILD ========
 # ====================
 re: fclean all
 
 # ==========================
-# === PHONY RULES ===
+# === PHONY RULES ==========
 # ==========================
 .PHONY: all clean fclean re
