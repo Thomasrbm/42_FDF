@@ -6,7 +6,7 @@
 #    By: throbert <throbert@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/03/07 19:09:36 by throbert          #+#    #+#              #
-#    Updated: 2025/03/23 16:24:05 by throbert         ###   ########.fr        #
+#    Updated: 2025/03/23 16:32:04 by throbert         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -30,7 +30,6 @@ MLX_REPO = https://github.com/42Paris/minilibx-linux.git
 # ========================
 SRC_DIR = fdf_dir
 GNL_DIR = gnl
-INC_DIR = includes
 OBJ_DIR = objs
 
 SRCS = $(wildcard $(SRC_DIR)/*.c) \
@@ -41,7 +40,7 @@ SRCS = $(wildcard $(SRC_DIR)/*.c) \
 
 OBJS = $(SRCS:%.c=$(OBJ_DIR)/%.o)
 
-INCLUDES = -I $(INC_DIR) -I $(LIBFT_DIR) -I $(MLX_DIR)
+INCLUDES = -I $(LIBFT_DIR) -I $(MLX_DIR)
 FULL_CFLAGS = $(CFLAGS) $(INCLUDES)
 
 # ========================

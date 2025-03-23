@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   draw_map.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: throbert <throbert@student.42lehavre.fr>   +#+  +:+       +#+        */
+/*   By: throbert <throbert@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/26 03:44:57 by throbert          #+#    #+#             */
-/*   Updated: 2025/02/09 12:57:23 by throbert         ###   ########.fr       */
+/*   Updated: 2025/03/23 16:29:45 by throbert         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "fdf.h"
+#include "../fdf.h"
 
 void	initialize_line(t_point start, t_point end, t_line *line)
 {
