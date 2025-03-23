@@ -6,7 +6,7 @@
 /*   By: throbert <throbert@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/08 07:01:48 by throbert          #+#    #+#             */
-/*   Updated: 2025/03/23 16:01:17 by throbert         ###   ########.fr       */
+/*   Updated: 2025/03/23 18:50:22 by throbert         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 # define FDF_H
 
 # include "../minilibx-linux/mlx.h"
-# include "../gnl/get_next_line.h"
+# include "gnl/get_next_line.h"
 # include "../libft/libft.h"
 # include <fcntl.h>
 # include <limits.h>

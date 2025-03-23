@@ -29,7 +29,7 @@ MLX_REPO = https://github.com/42Paris/minilibx-linux.git
 # === FILE STRUCTURE ====
 # ========================
 SRC_DIR = fdf_dir
-GNL_DIR = gnl
+GNL_DIR = fdf_dir/gnl
 OBJ_DIR = objs
 
 SRCS = $(wildcard $(SRC_DIR)/*.c) \
@@ -193,11 +193,13 @@ clean:
 		rm -rf $(OBJ_DIR); \
 		echo "$(RED)Suppression de la MLX...$(RESET)"; \
 		rm -rf $(MLX_DIR); \
+		echo "$(RED)Suppression de la LIBFT...$(RESET)"; \
+		rm -rf $(LIBFT_DIR); \
 		echo "$(GREEN)Nettoyage terminé !$(RESET)"; \
 	else \
 		echo "$(JAUNE)Aucun fichier objet à supprimer.$(RESET)"; \
 	fi
-	@make -C $(LIBFT_DIR) clean > /dev/null || true
+
 
 
 # ========================
