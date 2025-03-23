@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../../includes/fdf.h"
+#include "../fdf.h"
 
 static void	init_palette1(t_color *palette)
 {

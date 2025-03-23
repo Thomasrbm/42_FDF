@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   draw_colors_line.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: throbert <throbert@student.42lehavre.fr>   +#+  +:+       +#+        */
+/*   By: throbert <throbert@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/10 02:15:22 by throbert          #+#    #+#             */
-/*   Updated: 2025/02/10 02:15:24 by throbert         ###   ########.fr       */
+/*   Updated: 2025/03/23 16:29:45 by throbert         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "fdf.h"
+#include "../fdf.h"
 
 void	put_pixel_to_image(t_data *data, int x, int y, int color)
 {

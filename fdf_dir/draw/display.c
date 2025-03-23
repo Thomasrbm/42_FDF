@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "fdf.h"
+#include "../fdf.h"
 
 void	display_movement_speed(t_data *data)
 {

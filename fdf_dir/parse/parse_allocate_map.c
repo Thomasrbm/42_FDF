@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   parse_allocate_map.c                               :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: throbert <throbert@student.42lehavre.fr>   +#+  +:+       +#+        */
+/*   By: throbert <throbert@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/26 04:46:40 by throbert          #+#    #+#             */
-/*   Updated: 2025/02/10 05:34:24 by throbert         ###   ########.fr       */
+/*   Updated: 2025/03/23 16:29:45 by throbert         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "fdf.h"
+#include "../fdf.h"
 
 int	get_line_width(char *line)
 {

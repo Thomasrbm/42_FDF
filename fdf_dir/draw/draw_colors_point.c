@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "fdf.h"
+#include "../fdf.h"
 
 int	interpolate_palette_color(t_color *palette, int size, float percentage)
 {

@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   events_mouse.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: throbert <throbert@student.42lehavre.fr    +#+  +:+       +#+        */
+/*   By: throbert <throbert@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/26 04:16:00 by throbert          #+#    #+#             */
-/*   Updated: 2025/02/10 13:08:03 by throbert         ###   ########.fr       */
+/*   Updated: 2025/03/23 16:29:45 by throbert         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "fdf.h"
+#include "../fdf.h"
 
 void	handle_zoom(t_data *data, int x, int y, int direction)
 {

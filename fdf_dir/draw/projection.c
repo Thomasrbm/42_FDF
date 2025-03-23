@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   projection.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: throbert <throbert@student.42lehavre.fr>   +#+  +:+       +#+        */
+/*   By: throbert <throbert@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/26 03:42:56 by throbert          #+#    #+#             */
-/*   Updated: 2025/02/08 01:55:37 by throbert         ###   ########.fr       */
+/*   Updated: 2025/03/23 16:29:45 by throbert         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "fdf.h"
+#include "../fdf.h"
 
 t_point	project(t_point p, t_data *data)
 {
